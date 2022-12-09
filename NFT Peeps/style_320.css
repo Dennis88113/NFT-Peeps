@@ -1,0 +1,331 @@
+@media screen and (max-width: 415px) {
+    button {
+        width: 91px;
+        height: 35px;
+        font-size: 10px;
+    }
+
+    .navbar-logo {
+        display: none;
+    }
+
+    .content-text {
+        margin-top: 45px;
+        width: 200px;
+        font-size: 7px;
+        text-align: justify;
+        line-height: 0;
+    }
+
+    .subtitle h3 {
+        top: 5px;
+        left: -8px;
+        font-size: 12px;
+    }
+
+    .subtitle {
+        margin-top: 10px
+    }
+
+    .subtitle img {
+        width: 8%;
+    }
+
+    .borred-nft-peeps {
+        height: 355px;
+    }
+
+    .meet-our-bored-peeps .title h2 {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+
+    .meet-our-bored-peeps .content h3 {
+        padding-bottom: 0px;
+    }
+
+    .meet-our-bored-peeps .content p {
+        width: 280px;
+        line-height: 19px;
+        font-size: 3.4vw;
+    }
+
+    .content-block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-image {
+        width: 300px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-content-text {
+        width: 95%;
+    }
+
+    .meet-our-bored-peeps .content {
+        width: 100%;
+        margin-left: 10px;
+        padding-bottom: 5px;
+        padding-top: 0;
+    }
+
+    .meet-our-bored-peeps .content h3 {
+        font-size: 3.3vw;
+    }
+
+    .meet-our-bored-peeps .content-image img {
+        width: 80vw;
+    }
+
+    .meet-our-bored-peeps {
+        height: 710px;
+    }
+
+    .exclusive-content {
+        height: 2200px;
+    }
+
+    .exclusive-content .content > h3 {
+        font-size: 14px;
+    }
+
+    .rate {
+        padding: 0;
+    }
+
+    .rate-images img {
+        height: 10px;
+        width: 8px;
+    }
+
+    .tire, article.q {
+        padding-right: 32px;
+        font-size: 12px;
+        line-height: 10px;
+    }
+
+    .exclusive-content .title h2 {
+        padding-bottom: 10px;
+    }
+
+    .exclusive-content .content p {
+        width: 260px;
+        font-size: 3.5vw;
+    }
+
+    .exclusive-content .content-image {
+        height: 220px;
+        margin-left: 0;
+    }
+
+    .exclusive-content .content-block {
+        margin-top: 10px;
+        height: 100%;
+        margin-left: 0;
+    }
+
+    .line {
+        margin-left: 0;
+    }
+
+
+    .exclusive-content .content-image img {
+        height: 82%;
+    }
+
+    .wave, .wave-bottom img {
+        width: 450px;
+    }
+
+    .meet-our-team .content-images {
+        display: none;
+    }
+
+    .meet-our-team {
+        height: 605px;
+    }
+
+    .meet-our-team .title {
+        padding: 0;
+    }
+
+    .our-roadmap .content {
+        display: none;
+    }
+
+    .our-roadmap .content-block {
+        margin-top: 0;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        width: 280px;
+        height: 275px;
+    }
+
+    .splash-text, .splash-text2 {
+        width: 300px;
+        background-size: cover;
+        padding-top: 30px;
+        height: 230px;
+    }
+
+    .splash-text p {
+        width: 80%;
+        font-size: 11px;
+        line-height: 17px;
+    }
+
+    .splash-margin {
+        margin-left: 0;
+    }
+
+    .splash-text h3 {
+        width: 260px;
+        font-size: 16px;
+        line-height: 10px;
+        margin-left: 0;
+    }
+
+    .splash-text :nth-child(1n) {
+        margin-left: 40px;
+    }
+
+    .our-roadmap .content-block-image {
+        height: 500px;
+    }
+
+    .person {
+        height: 250px;
+        width: 150px;
+    }
+
+    .sitting {
+        padding-top: 0;
+    }
+
+    .splash-group {
+        display: none;
+    }
+
+    .slider {
+        display: block;
+    }
+
+
+    .frequent-questions {
+        height: 400px;
+    }
+
+    .questions {
+        width: 80vw;
+        margin-left: 20px;
+        height: 45px;
+        word-wrap: break-word;
+
+    }
+
+    .question p {
+        font-weight: 400;
+        font-size: 10px;
+        word-wrap: break-word;
+    }
+
+    .mark {
+        font-size: 16px;
+    }
+
+    .social-medias {
+        height: 164px;
+        margin-left: 0;
+        width: 190px;
+    }
+
+    .social-media > ul {
+        gap: 8px;
+    }
+
+    .navigation .social-media > ul {
+        margin-left: 30px;
+    }
+
+    .social-medias ul > li {
+        font-size: 2.8vw;
+        margin-bottom: 5px;
+    }
+
+    .navigation {
+        margin-left: 25px;
+    }
+
+    .follow-us {
+        height: 330px;
+    }
+
+    .follow-us .titles {
+        margin: 0;
+        margin-top: 40px;
+        width: 280px;
+        justify-content: normal;
+    }
+
+    .follow-us .subtitle {
+        width: 60px;
+        margin: 0;
+        margin-left: 20px
+    }
+
+    .follow-us .title h2 {
+        width: 220px;
+        margin-bottom: 0;
+
+    }
+
+    footer .titles {
+        align-items: center;
+    }
+
+    .service-information {
+        margin-left: 30px;
+        width: 280px;
+    }
+
+    .service-information p {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .slider {
+        display: flex;
+        width: 300px;
+        height: 420px;
+        margin: 20px auto;
+        overflow: hidden;
+    }
+
+    .slider-line {
+        width: 1800px;
+        height: 256px;
+        display: flex;
+        position: relative;
+        left: 0;
+        transition: all ease 1s;
+    }
+
+    .btn-block {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .person-data {
+        width: 300px;
+    }
+    .navbar {
+        display: none;
+    }
+}

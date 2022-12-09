@@ -1,0 +1,137 @@
+@media screen and (max-width: 415px) {
+#menu__toggle {
+    opacity: 0;
+}
+
+#menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+}
+#menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+}
+#menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+}
+#menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+}
+
+
+.lines__menu {
+    background-color: #f4516f;
+}
+
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+    animation: none;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #f4516f;
+    transition-duration: 0.85s;
+    z-index: 155;
+}
+
+.hamburger-menu {
+    display: block;
+}
+
+.hamburger-menu ul{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgba(255, 71, 107, 0.39);
+    z-index:50;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+}
+    .hamburger-menu li{
+        display: flex;
+        height: 50px;
+        align-items: center;
+        padding-left: 25px;
+    }
+
+    }
+    .menu__btn:hover, .hamburger-menu li:not(:last-child):hover{
+        transform: scale(1.1) ;
+        background-color: rgba(241, 241, 241, 0.33);
+        -webkit-transition: all 0.5s ease;
+        -moz-transition: all 0.5s ease;
+        -ms-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease;
+    }
+.menu__btn:hover{
+    transform: scale(1.4) ;
+}
+.hamburger-menu ul::after {
+    position: absolute;
+    background: inherit;
+    z-index: -15;
+
+}
+.hamburger-menu a{
+    font-size: 2rem;
+}
+    .hamburger-menu button {
+        border: 1px solid rgba(153, 25, 63, 0.75);
+        width: 145px;
+        height: 50px;
+        font-size: 1.3rem;
+    }
+
+
+.menu__btn > span::before {
+    content: "";
+    top: -8px;
+}
+.menu__btn > span::after {
+    content: "";
+    top: 8px;
+}
+.menu__box {
+    position: absolute;
+    display: block;
+    visibility: hidden;
+    top: 0;
+    left: 101vw;
+    width: 410px;
+    height: 650px;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color:  #f4516f;
+    box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+    transition-duration: 0.85s;
+    z-index: 50;
+}
+.menu__item {
+    display: block;
+    padding: 12px 24px;
+    color:  #222222;
+    font-size: 1.7rem;
+    font-weight: 600;
+    text-decoration: none;
+    transition-duration: 0.85s;
+    text-shadow: 1px 2px 3px white;
+}
+.menu__btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    width: 28px;
+    right: 5px;
+    height: 28px;
+    cursor: pointer;
+    z-index: 150;
+    border-radius: 5px;
+    background-color: inherit;
+}

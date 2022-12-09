@@ -1,0 +1,209 @@
+@media screen and (max-width: 915px) {
+    * {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .navbar-logo img:hover {
+        transform: scale(1.2);
+        transition: all 1s linear;
+    }
+    .navbar-menu-items {
+        justify-content: space-evenly;
+    }
+
+    .content-text {
+        width: 310px;
+    }
+
+    .content-text p {
+        font-size: 13px;
+        margin-top: 18px;
+        margin-bottom: 22px;
+    }
+
+    .borred-nft-peeps {
+        height: 555px;
+    }
+
+    .title h2 {
+        width: 100%;
+        font-size: 7vw;
+        line-height: 55px;
+        padding-bottom: 40px;
+    }
+
+    .col-content-text {
+        width: 70%;
+    }
+
+    .content-block {
+        justify-content: normal;
+    }
+
+    .content {
+        margin-left: 31px;
+    }
+
+    .content-image {
+        height: 90%;
+        width: 500px;
+    }
+
+    .meet-our-bored-peeps .content-image img {
+        width: 60vw;
+    }
+
+    .content p {
+        font-size: 1.5vw;
+        padding-bottom: 10px;
+    }
+
+    .content h3 {
+        font-size: 2.5vw;
+    }
+
+    .meet-our-bored-peeps {
+        height: 620px;
+    }
+
+    .exclusive-content .subtitle {
+        padding-top: 25px;
+    }
+
+    .meet-our-bored-peeps {
+        height: 670px;
+    }
+
+    .wave-bottom {
+        margin: 0;
+    }
+
+    .exclusive-content {
+        height: 1940px;
+    }
+
+    .exclusive-content .content-block {
+        height: 300px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 195px;
+    }
+
+    .exclusive-content .content-image {
+        height: 350px;
+        margin-left: 150px;
+    }
+
+    .exclusive-content .content-image img {
+        height: 70%;
+        padding-top: 30px;
+    }
+
+    .content-section {
+        margin-top: 0;
+    }
+
+    .splash-text h3 {
+        font-size: 3vw;
+    }
+
+    .splash-text p {
+        width: 280px;
+        font-size: 14px;
+    }
+
+    .splash-text {
+        padding-top: 65px;
+        background-size: 70%, 70%;
+    }
+
+    .splash-text2 {
+        background-size: 90%, 90%;
+    }
+
+    .splash-group {
+        margin-left: -273px;
+        height: 120px;
+        width: 135px;
+    }
+
+    .our-roadmap .content-block {
+        margin-top: 40px;
+        height: 370px;
+        margin-bottom: 45px;
+    }
+
+    .person {
+        height: 375px;
+    }
+    .standing2 {
+        width: 227px;
+    }
+
+    .exclusive-content .content {
+        margin: 0 0 0 90px
+    }
+
+    .exclusive-content .content-block {
+        margin-top: 50px;
+    }
+
+    .person-data {
+        height: 250px;
+        width: 215px;
+    }
+
+    .meet-our-team {
+        height: 855px;
+    }
+
+    .meet-our-team .subtitle {
+        margin: 0;
+    }
+
+    .frequent-questions {
+        height: 740px;
+        background-position: 3% 7%;
+        background-size: 22%, 20%;
+    }
+
+    .questions {
+        width: 77vw;
+    }
+
+    .question {
+        font-size: 16px;
+        line-height: 0;
+    }
+
+    .social-medias {
+        max-width: 650px;
+    }
+
+    .follow-us .titles {
+        margin-top: 40px;
+        width: 800px;
+        justify-content: space-around;
+    }
+
+    .follow-us {
+        height: 381px;
+        background-size: 13%, 15%;
+        background-position: 3% 5%;
+    }
+
+    .follow-us .content-section {
+        width: 95%;
+    }
+
+    .service-information {
+        width: 650px;
+    }
+    .social-medias{
+        width: 600px;
+    }
+    .social-medias ul>li {
+        font-size: 1.8vw;
+    }
+}
